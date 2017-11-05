@@ -85,6 +85,13 @@
             android:visibility="invisible"/>
     </android.support.v4.view.ViewPager>
 
+    <TextView
+        android:id="@+id/no_values_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text ="no values to display"
+        android:layout_centerInParent="true"
+        android:textAppearance="?android:textAppearanceMedium"/>
     <ProgressBar
         android:id="@+id/progressBar"
         android:layout_width="wrap_content"
