@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Your Crypto Converter</string>
+    <string name="hint">0.0</string>
+</resources>
