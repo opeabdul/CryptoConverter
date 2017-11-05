@@ -15,17 +15,17 @@ import android.widget.TextView;
 public class CardFragment extends Fragment {
 
 
-    private String currencySymbol;
-    private double bitcoinEquivalence;
-    private double ethereumEquivalence;
-
-    private View.OnClickListener onClickListener;
+    private String currencySymbol; //the currency symbol of each fragment to be passed from Bundle
+    private double bitcoinEquivalence; //price of one bitcoin in that currency
+    private double ethereumEquivalence; //price of one ethereum to be passsed from the bundle as retrieved
 
 
+    /*
+     *  A method to handle the creation of fragments and the passing of arguments to the fragments
+     */
     public static CardFragment newInstance(/*String resCurrencyName,*/ String resCurrenySymbol,
                                            double resBitcoinEquivalence, double resEthereumEquivalence){
 
-        //Creatng a new fragment and adding
         CardFragment fragment = new CardFragment();
         Bundle args = new Bundle();
         args.putString("currencySymbol", resCurrenySymbol);
@@ -53,10 +53,9 @@ public class CardFragment extends Fragment {
         TextView bitValueTextView = (TextView) view.findViewById(R.id.btc_value_textView);
         bitValueTextView.setText(String.format("%.2f",bitcoinEquivalence));
 
+        //inflate the views in each fragment with appropriate set of data
         TextView ethValueTextView = (TextView) view.findViewById(R.id.eth_value_textView);
         ethValueTextView.setText(String.format("%.2f",ethereumEquivalence));
-
-
 
         TextView currencySymbolTextView = (TextView) view.findViewById(R.id.symbol2_textview);
         currencySymbolTextView.setText(currencySymbol);
@@ -64,6 +63,7 @@ public class CardFragment extends Fragment {
         TextView currencySymbol2TextView = (TextView) view.findViewById(R.id.symbol_textview);
         currencySymbol2TextView.setText(currencySymbol);
 
+        //give each fragment click listener to the Convert Activity with the right sets of conversion data
         view.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
