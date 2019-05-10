@@ -1,0 +1,4 @@
+#Tue Apr 23 21:45:33 WAT 2019
+base.0=C\:\\Users\\OPEYEMI\\AndroidStudioProjects\\CryptoConverter\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\out
+path.0=classes.dex
+renamed.0=classes.dex

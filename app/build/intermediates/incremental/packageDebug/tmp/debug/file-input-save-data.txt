@@ -1,0 +1,7 @@
+#Internal package file, do not edit.
+#Tue Apr 23 21:45:34 WAT 2019
+0.baseType=DIRECTORY
+0.base=C\:\\Users\\OPEYEMI\\AndroidStudioProjects\\CryptoConverter\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\out
+0.path=classes.dex
+0.set=DEX
+count=1

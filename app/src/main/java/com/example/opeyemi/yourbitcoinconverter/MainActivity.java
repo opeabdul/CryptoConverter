@@ -12,9 +12,11 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
+import android.widget.ImageView;
 import android.widget.ProgressBar;
 import android.widget.Spinner;
 import android.widget.TextView;
+import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity implements LoaderManager.LoaderCallbacks<Card[]> {
     Spinner spinner; //spinner containing the list of all currencies
@@ -25,6 +27,7 @@ public class MainActivity extends AppCompatActivity implements LoaderManager.Loa
     //pager tab strip holding the header of each fragment
     PagerTabStrip pagerTabStrip;
     TextView emptyView;
+    ImageView refreshImageView;
 
 
     @Override
@@ -40,7 +43,8 @@ public class MainActivity extends AppCompatActivity implements LoaderManager.Loa
         NetworkInfo activeNetwork = cm.getActiveNetworkInfo();
 
         if(activeNetwork != null && activeNetwork.isConnected()){
-            getLoaderManager().initLoader(1,null,this).forceLoad();
+            loadData();
+
         } else {
             //Hide the progress bar
             progressBar = (ProgressBar) findViewById(R.id.progressBar);
@@ -58,10 +62,12 @@ public class MainActivity extends AppCompatActivity implements LoaderManager.Loa
         spinnerAdapter = new ArrayAdapter(this,R.layout.support_simple_spinner_dropdown_item,UtilityClass.currencies);
         spinner.setAdapter(spinnerAdapter);
 
-
-
     }
 
+    //retrieves data from the internet in the background
+    private void loadData() {
+        getLoaderManager().initLoader(1,null,this).forceLoad();
+    }
 
 
     @Override
@@ -74,6 +80,8 @@ public class MainActivity extends AppCompatActivity implements LoaderManager.Loa
         //Hide the progress bar
         progressBar = (ProgressBar) findViewById(R.id.progressBar);
         progressBar.setVisibility(View.GONE);
+        refreshImageView = findViewById(R.id.refresh_imageView);
+        refreshImageView.setClickable(true);
 
 
         //instantiating the viewPager, pagerTabStrip views from the main activity and View pager adapter
@@ -88,11 +96,24 @@ public class MainActivity extends AppCompatActivity implements LoaderManager.Loa
             @Override
             public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
                 viewPager.setCurrentItem(position);
+
             }
 
             @Override
             public void onNothingSelected(AdapterView<?> parent) {
 
+            }
+        });
+
+
+        refreshImageView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                viewPager.setAdapter(null);
+                progressBar.setVisibility(View.VISIBLE);
+                loadData();
+                Toast.makeText(MainActivity.this,"CryptoCurrencies prices updated", Toast.LENGTH_SHORT).show();
+                refreshImageView.setClickable(false);
             }
         });
 

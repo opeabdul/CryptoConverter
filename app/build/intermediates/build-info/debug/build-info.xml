@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<instant-run
+    abi="armeabi-v7a,armeabi"
+    api-level="23"
+    build-mode="HOT_WARM"
+    density="xhdpi"
+    format="10"
+    plugin-version="3.3.0"
+    timestamp="1556044583602"
+    token="4703322597706253897"
+    verifier="COMPATIBLE" >
+
+    <task
+        name="javac"
+        duration="2172" />
+    <task
+        name="instant-run-dex"
+        duration="51" />
+    <task
+        name="instant-run-transform"
+        duration="92" />
+    <task
+        name="verifier"
+        duration="110" />
+
+    <artifact
+        location="C:\Users\OPEYEMI\AndroidStudioProjects\CryptoConverter\app\build\intermediates\reload-dex\debug\classes.dex"
+        type="RELOAD_DEX" />
+
+    <build
+        build-mode="FULL"
+        timestamp="1556044294739"
+        verifier="FULL_BUILD_REQUESTED" >
+        <artifact
+            location="C:\Users\OPEYEMI\AndroidStudioProjects\CryptoConverter\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\OPEYEMI\AndroidStudioProjects\CryptoConverter\app\build\intermediates\instant-run-apk\debug\app-debug.apk"
+            type="SPLIT_MAIN" />
+        <artifact
+            location="C:\Users\OPEYEMI\AndroidStudioProjects\CryptoConverter\app\build\intermediates\split-apk\debug\dep\dependencies.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\OPEYEMI\AndroidStudioProjects\CryptoConverter\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\OPEYEMI\AndroidStudioProjects\CryptoConverter\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\OPEYEMI\AndroidStudioProjects\CryptoConverter\app\build\intermediates\split-apk\debug\slices\slice_8.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\OPEYEMI\AndroidStudioProjects\CryptoConverter\app\build\intermediates\split-apk\debug\slices\slice_3.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\OPEYEMI\AndroidStudioProjects\CryptoConverter\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\OPEYEMI\AndroidStudioProjects\CryptoConverter\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\OPEYEMI\AndroidStudioProjects\CryptoConverter\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\OPEYEMI\AndroidStudioProjects\CryptoConverter\app\build\intermediates\split-apk\debug\slices\slice_7.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\OPEYEMI\AndroidStudioProjects\CryptoConverter\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
+            type="SPLIT" />
+    </build>
+    <build
+        build-mode="HOT_WARM"
+        timestamp="1556044536585"
+        verifier="COMPATIBLE" >
+        <artifact
+            location="C:\Users\OPEYEMI\AndroidStudioProjects\CryptoConverter\app\build\intermediates\builds\debug\1556044536585\classes.dex"
+            type="RELOAD_DEX" />
+    </build>
+    <build
+        build-mode="HOT_WARM"
+        timestamp="1556044583602"
+        verifier="COMPATIBLE" >
+        <artifact
+            location="C:\Users\OPEYEMI\AndroidStudioProjects\CryptoConverter\app\build\intermediates\reload-dex\debug\classes.dex"
+            type="RELOAD_DEX" />
+    </build>
+
+</instant-run>

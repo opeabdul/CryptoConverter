@@ -1,0 +1,112 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\OPEYEMI\AndroidStudioProjects\CryptoConverter\app\src\main\AndroidManifest.xml:2:1-28:12
+INJECTED from C:\Users\OPEYEMI\AndroidStudioProjects\CryptoConverter\app\src\main\AndroidManifest.xml:2:1-28:12
+INJECTED from C:\Users\OPEYEMI\AndroidStudioProjects\CryptoConverter\app\src\main\AndroidManifest.xml:2:1-28:12
+INJECTED from C:\Users\OPEYEMI\AndroidStudioProjects\CryptoConverter\app\src\main\AndroidManifest.xml:2:1-28:12
+MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\OPEYEMI\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\527e69452e04c2655dd444cbb074ec9e\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\OPEYEMI\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\223242904ce617dd6beefc2de42aea35\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] C:\Users\OPEYEMI\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.1.aar\c91555a9da8c7d8f0798e8981a1e8776\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\OPEYEMI\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.1.aar\53ca569cb65991db2ea6bd96db3f1a67\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\OPEYEMI\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.1.aar\ae1da1eb73c1d8659e3abb96c2365546\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:27.1.1] C:\Users\OPEYEMI\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.1.1.aar\7427fed87313cf5633a5457f6373b712\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:27.1.1] C:\Users\OPEYEMI\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.1.aar\8e8367197f67a928c788a7be728d793b\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\OPEYEMI\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\0400f2555df5bcbd12e0dcb48a7c5698\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\OPEYEMI\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\dd6c9595b01ce8518b0128414fd426e3\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\OPEYEMI\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\4579fc99baae49c676b9f05165769e61\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.0] C:\Users\OPEYEMI\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\2d8b58fa841ae144adde59117f58bed9\AndroidManifest.xml:17:1-22:12
+INJECTED from C:\Users\OPEYEMI\AndroidStudioProjects\CryptoConverter\app\src\main\AndroidManifest.xml:2:1-28:12
+INJECTED from C:\Users\OPEYEMI\AndroidStudioProjects\CryptoConverter\app\src\main\AndroidManifest.xml:2:1-28:12
+INJECTED from C:\Users\OPEYEMI\AndroidStudioProjects\CryptoConverter\app\src\main\AndroidManifest.xml:2:1-28:12
+	package
+		ADDED from C:\Users\OPEYEMI\AndroidStudioProjects\CryptoConverter\app\src\main\AndroidManifest.xml:3:5-55
+		INJECTED from C:\Users\OPEYEMI\AndroidStudioProjects\CryptoConverter\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\OPEYEMI\AndroidStudioProjects\CryptoConverter\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\OPEYEMI\AndroidStudioProjects\CryptoConverter\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\OPEYEMI\AndroidStudioProjects\CryptoConverter\app\src\main\AndroidManifest.xml:2:1-28:12
+		INJECTED from C:\Users\OPEYEMI\AndroidStudioProjects\CryptoConverter\app\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from C:\Users\OPEYEMI\AndroidStudioProjects\CryptoConverter\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\OPEYEMI\AndroidStudioProjects\CryptoConverter\app\src\main\AndroidManifest.xml:2:1-28:12
+		INJECTED from C:\Users\OPEYEMI\AndroidStudioProjects\CryptoConverter\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\OPEYEMI\AndroidStudioProjects\CryptoConverter\app\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\OPEYEMI\AndroidStudioProjects\CryptoConverter\app\src\main\AndroidManifest.xml:4:5-67
+	android:name
+		ADDED from C:\Users\OPEYEMI\AndroidStudioProjects\CryptoConverter\app\src\main\AndroidManifest.xml:4:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from C:\Users\OPEYEMI\AndroidStudioProjects\CryptoConverter\app\src\main\AndroidManifest.xml:5:5-79
+	android:name
+		ADDED from C:\Users\OPEYEMI\AndroidStudioProjects\CryptoConverter\app\src\main\AndroidManifest.xml:5:22-76
+application
+ADDED from C:\Users\OPEYEMI\AndroidStudioProjects\CryptoConverter\app\src\main\AndroidManifest.xml:7:5-26:19
+	android:supportsRtl
+		ADDED from C:\Users\OPEYEMI\AndroidStudioProjects\CryptoConverter\app\src\main\AndroidManifest.xml:11:9-35
+	android:label
+		ADDED from C:\Users\OPEYEMI\AndroidStudioProjects\CryptoConverter\app\src\main\AndroidManifest.xml:10:9-41
+	android:icon
+		ADDED from C:\Users\OPEYEMI\AndroidStudioProjects\CryptoConverter\app\src\main\AndroidManifest.xml:9:9-43
+	android:allowBackup
+		ADDED from C:\Users\OPEYEMI\AndroidStudioProjects\CryptoConverter\app\src\main\AndroidManifest.xml:8:9-35
+	android:theme
+		ADDED from C:\Users\OPEYEMI\AndroidStudioProjects\CryptoConverter\app\src\main\AndroidManifest.xml:12:9-40
+activity#com.example.opeyemi.yourbitcoinconverter.MainActivity
+ADDED from C:\Users\OPEYEMI\AndroidStudioProjects\CryptoConverter\app\src\main\AndroidManifest.xml:13:9-22:20
+	android:screenOrientation
+		ADDED from C:\Users\OPEYEMI\AndroidStudioProjects\CryptoConverter\app\src\main\AndroidManifest.xml:14:13-49
+	android:name
+		ADDED from C:\Users\OPEYEMI\AndroidStudioProjects\CryptoConverter\app\src\main\AndroidManifest.xml:13:19-47
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Users\OPEYEMI\AndroidStudioProjects\CryptoConverter\app\src\main\AndroidManifest.xml:15:13-20:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\OPEYEMI\AndroidStudioProjects\CryptoConverter\app\src\main\AndroidManifest.xml:16:17-69
+	android:name
+		ADDED from C:\Users\OPEYEMI\AndroidStudioProjects\CryptoConverter\app\src\main\AndroidManifest.xml:16:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\OPEYEMI\AndroidStudioProjects\CryptoConverter\app\src\main\AndroidManifest.xml:18:17-77
+	android:name
+		ADDED from C:\Users\OPEYEMI\AndroidStudioProjects\CryptoConverter\app\src\main\AndroidManifest.xml:18:27-74
+activity#com.example.opeyemi.yourbitcoinconverter.ConvertActivity
+ADDED from C:\Users\OPEYEMI\AndroidStudioProjects\CryptoConverter\app\src\main\AndroidManifest.xml:24:9-25:61
+	android:screenOrientation
+		ADDED from C:\Users\OPEYEMI\AndroidStudioProjects\CryptoConverter\app\src\main\AndroidManifest.xml:25:13-49
+	android:name
+		ADDED from C:\Users\OPEYEMI\AndroidStudioProjects\CryptoConverter\app\src\main\AndroidManifest.xml:24:19-50
+uses-sdk
+INJECTED from C:\Users\OPEYEMI\AndroidStudioProjects\CryptoConverter\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\OPEYEMI\AndroidStudioProjects\CryptoConverter\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\OPEYEMI\AndroidStudioProjects\CryptoConverter\app\src\main\AndroidManifest.xml
+MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\OPEYEMI\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\527e69452e04c2655dd444cbb074ec9e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\OPEYEMI\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\527e69452e04c2655dd444cbb074ec9e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\OPEYEMI\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\223242904ce617dd6beefc2de42aea35\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\OPEYEMI\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\223242904ce617dd6beefc2de42aea35\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] C:\Users\OPEYEMI\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.1.aar\c91555a9da8c7d8f0798e8981a1e8776\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] C:\Users\OPEYEMI\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.1.aar\c91555a9da8c7d8f0798e8981a1e8776\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\OPEYEMI\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.1.aar\53ca569cb65991db2ea6bd96db3f1a67\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\OPEYEMI\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.1.aar\53ca569cb65991db2ea6bd96db3f1a67\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\OPEYEMI\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.1.aar\ae1da1eb73c1d8659e3abb96c2365546\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\OPEYEMI\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.1.aar\ae1da1eb73c1d8659e3abb96c2365546\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] C:\Users\OPEYEMI\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.1.1.aar\7427fed87313cf5633a5457f6373b712\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] C:\Users\OPEYEMI\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.1.1.aar\7427fed87313cf5633a5457f6373b712\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] C:\Users\OPEYEMI\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.1.aar\8e8367197f67a928c788a7be728d793b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] C:\Users\OPEYEMI\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.1.aar\8e8367197f67a928c788a7be728d793b\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\OPEYEMI\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\0400f2555df5bcbd12e0dcb48a7c5698\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\OPEYEMI\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\0400f2555df5bcbd12e0dcb48a7c5698\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\OPEYEMI\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\dd6c9595b01ce8518b0128414fd426e3\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\OPEYEMI\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\dd6c9595b01ce8518b0128414fd426e3\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\OPEYEMI\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\4579fc99baae49c676b9f05165769e61\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\OPEYEMI\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\4579fc99baae49c676b9f05165769e61\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] C:\Users\OPEYEMI\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\2d8b58fa841ae144adde59117f58bed9\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] C:\Users\OPEYEMI\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\2d8b58fa841ae144adde59117f58bed9\AndroidManifest.xml:20:5-44
+INJECTED from C:\Users\OPEYEMI\AndroidStudioProjects\CryptoConverter\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\OPEYEMI\AndroidStudioProjects\CryptoConverter\app\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from C:\Users\OPEYEMI\AndroidStudioProjects\CryptoConverter\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\OPEYEMI\AndroidStudioProjects\CryptoConverter\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\OPEYEMI\AndroidStudioProjects\CryptoConverter\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\OPEYEMI\AndroidStudioProjects\CryptoConverter\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\OPEYEMI\AndroidStudioProjects\CryptoConverter\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\OPEYEMI\AndroidStudioProjects\CryptoConverter\app\src\main\AndroidManifest.xml
